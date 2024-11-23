@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.13",
+    "element-plus": "^2.8.8",
+    "h3": "^1.13.0",
+    "nuxt": "^3.14.159",
+    "qrcode.vue": "^3.6.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "xgplayer": "^3.0.20",
+    "xgplayer-hls": "^3.0.20",
+    "xgplayer-mp4": "^3.0.20"
+  },
+  "devDependencies": {
+    "@element-plus/nuxt": "^1.1.0",
+    "@nuxtjs/i18n": "^9.0.0-rc.2",
+    "dayjs-nuxt": "^2.1.11",
+    "sass": "^1.81.0"
+  }
+}
